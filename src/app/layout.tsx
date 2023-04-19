@@ -1,4 +1,5 @@
 import './globals.css'
+import { HistoryProvider } from './context'
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <HistoryProvider>
+        <body>{children}</body>
+      </HistoryProvider>
     </html>
   )
 }
