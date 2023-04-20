@@ -3,7 +3,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #F6F6F6;
+    background-color: white;
 }
 
 .header_container {
@@ -21,7 +21,7 @@
 .header_container > a {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 12px;
     border-radius: 50%;
     color: #555;
 }
